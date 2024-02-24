@@ -5,8 +5,6 @@
 #include <stdlib.h>
 #include "calendar.h"
 
-//by Atte Rouhe 2019
-
 //returns a pointer to the new item array or NULL if something went wrong
 item *addItem(char* content, char* month_s, char* day_s, char* hour_s, item* calendar) {
 
